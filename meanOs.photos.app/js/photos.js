@@ -664,7 +664,7 @@ function openAlbum(albumElement,albumPos) {
 
     loadAllPhotosSection(albumDir.path);
 
-   /* imageToAdd = "/home/extern/Pictures/landscape2.jpeg";
+   /* imageToAdd = "/home/meanOs/Pictures/landscape2.jpeg";
     $("#albumView").append('<a href="#" class="photo-stack single-photo photo-thumbnail">'+
         '<img src="file://'+imageToAdd+'">'+
         '<p class="thumbnailLabel">Side Slide</p>'+
