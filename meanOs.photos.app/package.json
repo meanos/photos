@@ -1,0 +1,30 @@
+{
+  "name": "Photos",
+  "id":"mean.photos.app",
+  "version": "0.1",
+  "description": "View & explore image files.",
+  "main": "index.html",
+  "wait": true,
+  "multi_window" : true,
+  "thumbnail_preview": false,
+  "category" : "Images & Graphics",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "don Pablo",
+  "window": {
+    "show": true,
+    "transparent": true,
+    "icon": "icon.svg",
+    "frame": false,
+    "width": 1260,
+    "height": 680,
+    "min_width": 100,
+    "min_height": 100
+  },
+  "license": "ISC",
+  "chromium-args": "--enable-transparent-visuals --disable-gpu",
+  "dependencies": {
+    "pretty-bytes": "^1.0.2"
+  }
+} 
